@@ -9,7 +9,6 @@ import lombok.Getter;
 public class PostRequest {
     private String title;
     private String contents;
-
     private Tag tag;
 
     public Post toEntity() {
